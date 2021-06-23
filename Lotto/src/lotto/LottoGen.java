@@ -5,8 +5,16 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
+/**
+* @author Nzetocha
+* Class that models a lottery ticket data.
+*/
 public class LottoGen {
 	
+	/**
+	* Method for generating random numbers within a specified
+	* range and sorted in increasing order.
+	*/
 	public static List<Integer> numGenerator() {
 		
 		Random rand = new Random(); 
